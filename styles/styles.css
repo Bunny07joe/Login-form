@@ -1,0 +1,71 @@
+/* Apply general styles to the entire form */
+div{
+
+  text-align: center;
+  text-decoration: solid;
+  
+
+  padding: 0px;
+  margin: 0px;
+}
+body{
+    background-color: rgba(200, 247, 247, 0.589);
+}
+form {
+    align-items: center;
+    margin-left: 35%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #8dc3d1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10%;
+    }
+  
+  /* Style for labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+  
+  /* Style for input fields */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style for submit button */
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 40%;
+
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for error messages */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Optional: Add styles for responsive design */
+  @media (max-width: 600px) {
+    form {
+      max-width: 300px;
+    }
+}
+  
